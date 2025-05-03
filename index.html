@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Kart</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="overflow-hidden">
+      <div
+        class="mx-auto max-w-[1200px] flex justify-between items-center px-[16px]"
+      >
+        <!-- log -->
+        <div class="text-black font-bold">SHOP KART</div>
+        <!-- SEARCH INPUT  -->
+        <div
+          class="boarder-[2px] bg-[#F5F5F5] my-[10px] rounded-[8px] pl-[10px]"
+        >
+          🔍
+          <input placeholder="Search" class="w-[370px] h-[50px] p-[10px]" />
+        </div>
+        <!-- MENU BAR -->
+        <ul class="flex justify-center items-center gap-8">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact Us</li>
+          <li>Blog</li>
+        </ul>
+        <!-- FUNCTION SECTION  -->
+        <div class="flex justify-center items-center gap-8">
+          <div class="h-[20px] w-[20px] text-center boarder">♥</div>
+          <div class="h-[20px] w-[20px] text-center boarder">🛒</div>
+          <div class="h-[20px] w-[20px] text-center boarder">👤</div>
+        </div>
+      </div>
+    </header>
+    <!-- BODY MAIN  -->
+    <main>
+      <!-- AD'S SECTION  -->
+      <section class="bg-[#211C24] h-[633px]">
+        <div class="mx-auto max-w-[1200px] flex">
+          <div class="pr-[80px] my-auto">
+            <h1 class="text-[100px] text-white font-[50]">
+              IPhone 14 <span class="font-[500]">Pro</span>
+            </h1>
+            <p class="text-[#909090] text-[18px]">
+              Created to change everything for the better. For everyone
+            </p>
+            <button
+              class="border-2 border-white mt-5 rounded-[6px] w-[200px] py-[14px] text-white"
+            >
+              Shop Now
+            </button>
+          </div>
+
+          <div>
+            <img
+              src="./images/Iphone14.png"
+              alt="Iphone-14-Pro"
+              class="h-[633px]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS SECTION  -->
+      <section class="flex h-[600px]">
+        <div class="w-[50%] bg-green-100">vishal</div>
+        <div
+          class="w-[50%] bg-[#EDEDED] relative overflow-hidden flex items-center justify-start"
+        >
+          <div class="flex flex-col gap-4 w-[60%] pl-[40px]">
+            <div class="text-[64px] font-thin leading-none">
+              Macbook
+              <br />
+              <span class="font-bold">Air</span>
+            </div>
+            <span class="text-[#909090] text-[14px]"
+              >The new 15‑inch MacBook Air makes room for more of what you love
+              with a spacious Liquid Retina display.</span
+            >
+            <button
+              class="border-2 border-zinc-500 text-[16px] text-zinc-700 font-medium rounded-[8px] px-8 py-2 w-min text-nowrap"
+            >
+              Shop Now
+            </button>
+          </div>
+
+          <img
+            src="./images/Iphone14.png"
+            alt="Iphone-14-Pro"
+            class="h-[433px] absolute right-[-120px]"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
